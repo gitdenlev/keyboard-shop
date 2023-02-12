@@ -3,7 +3,7 @@
 :root {
     --main-color: #ffff;
     --text-color: black;
-    --sakura-color: pink;
+    --moonlight-color: rgb(133, 189, 210);
 }
 
 
@@ -25,10 +25,11 @@ body {
 .header {
     padding: 60px;
     text-align: center;
-    background-color: var(--sakura-color);
+    background-color: var(--moonlight-color);
     color: white;
     font-size: 30px;
 }
+
 /* dsfsfsdfsfsfsfsfsfsd */
 ul.catalog__list {
     display: flex;
@@ -83,7 +84,7 @@ button.learn-more .circle {
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background-color: var(--sakura-color);
+    background-color: var(--moonlight-color);
     border-radius: 1.625rem;
 }
 
@@ -125,7 +126,7 @@ button.learn-more .button-text {
     bottom: 0;
     padding: 0.75rem 0;
     margin: 0 0 0 1.85rem;
-    color: #282936;
+    color: rgb(133, 189, 210);
     font-weight: 700;
     line-height: 1.6;
     text-align: center;
@@ -144,8 +145,53 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
     color: #fff;
 }
-/* Review */
-.info {
+
+
+
+
+
+/* Card */
+.typing {
+    width: 555px;
+}
+
+
+
+
+
+
+/* Footer */
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    background-color: var(--moonlight-color);
+    width: auto;
+}
+
+.footer__info-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer__info-item {
+    margin-left: 30px;
+}
+
+.footer__info-item:first-child {
+    margin-left: 0px;
+}
+
+
+
+
+/* sdfsdfsfsfsfsfsfsdfs */
+info {
     background-color: transparent;
     padding: 15px 50px;
 }
@@ -153,12 +199,12 @@ button:hover .button-text {
 .info__switch {
     display: none;
 }
-
 .info__body {
     max-height: 0px;
     overflow: hidden;
     transition: 0.5s;
-    border-bottom: 1px solid var(--sakura-color);
+    border-bottom: 1px solid var(--moonlight-color);
+    width: 500px;
 }
 
 .info__switch:checked~.info__body {
@@ -170,7 +216,7 @@ button:hover .button-text {
     position: absolute;
     left: -18px;
     top: 8px;
-    border: 6px solid var(--sakura-color);
+    border: 6px solid var(--moonlight-color);
     border-bottom-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
@@ -185,7 +231,7 @@ button:hover .button-text {
     position: relative;
     margin-bottom: 15px;
     user-select: none;
-    color: var(--sakura-color);
+    color: var(--moonlight-color);
     font-weight: normal;
     cursor: pointer;
 }
@@ -211,7 +257,8 @@ button:hover .button-text {
     max-height: 0px;
     overflow: hidden;
     transition: 0.5s;
-    border-bottom: 1px solid var(--sakura-color);
+    border-bottom: 1px solid var(--moonlight-color);
+    width: 300px;
 }
 
 .info__switch-2:checked~.info__body-2 {
@@ -225,7 +272,7 @@ button:hover .button-text {
     position: absolute;
     left: -18px;
     top: 8px;
-    border: 6px solid var(--sakura-color);
+    border: 6px solid var(--moonlight-color);
     border-bottom-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
@@ -240,7 +287,7 @@ button:hover .button-text {
     position: relative;
     margin-bottom: 15px;
     user-select: none;
-    color: var(--sakura-color);
+    color: var(--moonlight-color);
     font-weight: normal;
     cursor: pointer;
 }
@@ -255,74 +302,51 @@ button:hover .button-text {
 
 
 
-/* Video */
-.typing {
-    width: 555px;
-    margin-top: 20px;
-}
 
 
 
 
 
-
-/* Footer */
-.footer {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-size: 24px;
-    background-color: var(--sakura-color);
-    width: auto;
-}
-
-.footer__info-list {
+/* Bar */
+.navigation-bar {
+    width: 210px;
+    height: 254px;
+    border-radius: 4px;
+    background: #212121;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    gap: 5px;
+    padding: .4em;
 }
 
-
-.footer__info-item {
-    margin-left: 30px;
-}
-
-.footer__info-item:first-child {
-    margin-left: 0px;
-}
-
-
-
-
-/* Card */
-
-
-.card {
-    box-sizing: border-box;
-    width: 350px;
-    height: 400px;
-    background: rgba(217, 217, 217, 0.58);
-    border: 1px solid white;
-    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
-    backdrop-filter: blur(6px);
-    border-radius: 17px;
-    text-align: center;
+.navigation-bar a {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
     cursor: pointer;
-    transition: all 0.5s;
+    border-radius: 2px;
+    transition: all .5s;
+    background: #212121;
+    border: 1px solid #ff5a91;
     display: flex;
-    align-items: center;
     justify-content: center;
-    user-select: none;
-    font-weight: bolder;
+    align-items: center;
 }
 
-.card:hover {
-    border: 1px solid var(--sakura-color);
-    transform: scale(1.05);
+.navigation-bar a:hover {
+    flex: 4;
 }
 
-.card:active {
-    transform: scale(0.95) rotateZ(1.7deg);
+.navigation-bar a span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #ff568e;
+    letter-spacing: .1em;
+}
+
+.navigation-bar a:hover {
+    transform: rotate(0);
 }

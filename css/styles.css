@@ -2,6 +2,7 @@
 :root{
     --main-color: #ffff;
     --text-color: black;
+    --header__footer-color: #1abc9c;
 }
 
 
@@ -145,6 +146,71 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
     color: #fff;
 }
+
+
+
+/* Footer */
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    background-color:#1abc9c;
+    width: auto;
+}
+.footer__info-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+
+.footer__info-item{
+    margin-left: 30px;
+}
+.footer__info-item:first-child{
+    margin-left: 0px;
+}
+
+
+/* Nav Bar */
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    background-color: var(--main-color);
+}
+
+.nav {
+    margin: 2%;
+    background-color: var(--main-color);
+    width: 120px;
+    height: 100px;
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    transition: .2s all;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.nav>span {
+    display: block;
+    margin: auto;
+    max-width: 40px;
+}
+
+
+.navigation-bar:hover .nav:hover {
+    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+    background-color: var(--header__footer-color);
+}
+
 
 
 
