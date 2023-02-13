@@ -3,7 +3,7 @@
 :root {
     --main-color: #ffff;
     --text-color: black;
-    --sakura-color: pink;
+    --seamelody-color: #bcd5ea;
 }
 
 
@@ -25,10 +25,11 @@ body {
 .header {
     padding: 60px;
     text-align: center;
-    background-color: var(--sakura-color);
+    background-color: var(--seamelody-color);
     color: white;
     font-size: 30px;
 }
+
 /* dsfsfsdfsfsfsfsfsfsd */
 ul.catalog__list {
     display: flex;
@@ -83,7 +84,7 @@ button.learn-more .circle {
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background-color: var(--sakura-color);
+    background-color: var(--seamelody-color);
     border-radius: 1.625rem;
 }
 
@@ -144,6 +145,7 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
     color: #fff;
 }
+
 /* Review */
 .info {
     background-color: transparent;
@@ -158,7 +160,7 @@ button:hover .button-text {
     max-height: 0px;
     overflow: hidden;
     transition: 0.5s;
-    border-bottom: 1px solid var(--sakura-color);
+    border-bottom: 1px solid var(--seamelody-color);
 }
 
 .info__switch:checked~.info__body {
@@ -170,7 +172,7 @@ button:hover .button-text {
     position: absolute;
     left: -18px;
     top: 8px;
-    border: 6px solid var(--sakura-color);
+    border: 6px solid var(--seamelody-color);
     border-bottom-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
@@ -185,7 +187,7 @@ button:hover .button-text {
     position: relative;
     margin-bottom: 15px;
     user-select: none;
-    color: var(--sakura-color);
+    color: var(--seamelody-color);
     font-weight: normal;
     cursor: pointer;
 }
@@ -211,7 +213,7 @@ button:hover .button-text {
     max-height: 0px;
     overflow: hidden;
     transition: 0.5s;
-    border-bottom: 1px solid var(--sakura-color);
+    border-bottom: 1px solid var(--seamelody-color);
 }
 
 .info__switch-2:checked~.info__body-2 {
@@ -225,7 +227,7 @@ button:hover .button-text {
     position: absolute;
     left: -18px;
     top: 8px;
-    border: 6px solid var(--sakura-color);
+    border: 6px solid var(--seamelody-color);
     border-bottom-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
@@ -240,7 +242,7 @@ button:hover .button-text {
     position: relative;
     margin-bottom: 15px;
     user-select: none;
-    color: var(--sakura-color);
+    color: var(--seamelody-color);
     font-weight: normal;
     cursor: pointer;
 }
@@ -274,7 +276,7 @@ button:hover .button-text {
     justify-content: center;
     color: white;
     font-size: 24px;
-    background-color: var(--sakura-color);
+    background-color: var(--seamelody-color);
     width: auto;
 }
 
@@ -283,6 +285,7 @@ button:hover .button-text {
     align-items: center;
     justify-content: center;
 }
+
 .footer__main-info {
     margin-bottom: 30px;
 }
@@ -326,7 +329,7 @@ button:hover .button-text {
 }
 
 .card:hover {
-    border: 1px solid var(--sakura-color);
+    border: 1px solid var(--seamelody-color);
     transform: scale(1.05);
 }
 

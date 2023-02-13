@@ -49,7 +49,9 @@ ul.catalog__list li {
 
 
 
-
+.catalog__item:hover img{
+    transform:scale(0.9);
+}
 
 .catalog__item a {
     text-decoration: none;
