@@ -153,6 +153,7 @@ button:hover .button-text {
 /* Card */
 .typing {
     width: 555px;
+    margin-top: 20px;
 }
 
 
@@ -247,8 +248,8 @@ info {
 /* Settings */
 .info-2 {
     background-color: transparent;
-    padding: 15px 50px;
-    margin-left: 150px;
+    padding-top: 20px;
+    width: 500px;
 }
 
 .info__switch-2 {
@@ -260,7 +261,7 @@ info {
     overflow: hidden;
     transition: 0.5s;
     border-bottom: 1px solid var(--moonlight-color);
-    width: 300px;
+    width: 500px;
 }
 
 .info__switch-2:checked~.info__body-2 {
