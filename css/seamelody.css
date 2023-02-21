@@ -192,9 +192,6 @@ button:hover .button-text {
     cursor: pointer;
 }
 
-.info__headline:hover {
-    text-decoration: underline;
-}
 
 
 
@@ -247,9 +244,6 @@ button:hover .button-text {
     cursor: pointer;
 }
 
-.info__headline-2:hover {
-    text-decoration: underline;
-}
 
 
 

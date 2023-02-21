@@ -239,9 +239,7 @@ info {
     cursor: pointer;
 }
 
-.info__headline:hover {
-    text-decoration: underline;
-}
+
 
 
 
@@ -295,9 +293,7 @@ info {
     cursor: pointer;
 }
 
-.info__headline-2:hover {
-    text-decoration: underline;
-}
+
 
 
 
